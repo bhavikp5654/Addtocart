@@ -1,0 +1,49 @@
+.carddetails{
+    height: 400px;
+    width: 80%;
+    display: flex;
+    background-color: #ddd;
+    margin: 100px auto;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+.carddetailsleft{
+    width: 40%;
+    height: 400px;
+}
+.cardimg {
+    text-align: center;
+}
+.cardimg img{
+    width: 80%;
+    height: 350px;
+}
+.carddetailsright{
+    background-color: #3a3535;
+    width: 60%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 40px;
+}
+.ratings span{
+    /* padding: 10px; */
+    border: 1px solid grey;
+    background-color: rgb(34, 77, 34);
+
+}
+.checkquantity{
+    width: 80px;
+    background-color: #ddd;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.checkquantity span{
+    font-size: 25px;
+    cursor: pointer;
+
+}
